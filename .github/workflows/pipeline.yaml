@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v7
+        run: cd devops-pipelines
 
       - name: Setup Node
         uses: actions/setup-node@v7
