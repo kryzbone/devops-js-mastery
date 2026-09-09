@@ -21,7 +21,7 @@ jobs:
           # cache-dependency-path: 'devops-js-mastery/devops-pipelines/package-lock.json'
 
       - name: Install Dependencies
-        working-directory: 'devops-js-mastery/devops-pipelines/'
+        working-directory: 'devops-pipelines'
         run: npm install
 
       - name: Run Tests
