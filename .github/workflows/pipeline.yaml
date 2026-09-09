@@ -17,8 +17,8 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: 24
-          cache: 'npm'
-          cache-dependency-path: 'devops-js-mastery/devops-pipelines/package-lock.json'
+          # cache: 'npm'
+          # cache-dependency-path: 'devops-js-mastery/devops-pipelines/package-lock.json'
 
       - name: Install Dependencies
         working-directory: 'devops-js-mastery/devops-pipelines/'
