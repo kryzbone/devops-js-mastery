@@ -9,6 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    # 🌎 All steps in this job will automatically run inside this folder
+    # defaults:
+    #   run:
+    #     working-directory: devops-js-mastery
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v7
